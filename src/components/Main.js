@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Main.css"
 import { Link } from "react-router-dom";
+import MainPage from "./MainPage";
 
 
 const Main = () => {
@@ -9,9 +10,10 @@ const Main = () => {
     <div className="main-page">
 
       <div className="text-container">
-        <p className='italic-text'>fırsatı kaçırma</p>
+       
         <p className="text">KOD ACIKTIRIR,</p>
         <p className="text">PİZZA DOYURUR!</p>
+        <p className='italic-text'>fırsatı kaçırma</p>
       </div>
 
       <br />
@@ -23,7 +25,7 @@ const Main = () => {
         </Link>
 
       </div>
-
+    
     </div>
 
   )
